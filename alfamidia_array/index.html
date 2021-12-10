@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de arrays</title>
+</head>
+<body>
+    Entrada de dados
+    <input id="numero" type="number" placeholder="Digite um número">
+    <br>
+    Operação
+    <select name="operacao" id="selecao">
+        <option value="1">Somar todos os números</option>
+        <option value="2">Inserir no início da lista</option>
+        <option value="3">Inserir no fim da lista</option>
+        <option value="4">Inverter lista</option>
+        <option value="5">Ordenar lista</option>
+    </select>
+    <input onclick="executar()" type="submit" value="Executar" id="executar">
+    <p>Array:</p>
+    <span id="msg"></span>
+    
+    <script src="script.js"></script>
+</body>
+</html>
