@@ -12,9 +12,17 @@
 <body>
     <section class="container-input">
         <h1>To-Do List</h1>
-        <input type="text" name="input-task" id="input-task" placeholder="Digite aqui sua tarefa">
-        <button id="btn-task">+</button>
-        <ul class="tasks"></ul>
+        <form class="tasks-form">
+            <p class="alert"></p>
+            <input type="text" name="input-task" id="input-task" placeholder="Digite aqui sua tarefa (ex: limpar a casa)">
+            <button id="btn-task">+</button>
+        </form>
+        <div class="tasks">
+            <div class="tasks-list">
+                
+            </div>
+            <button type="button" class="clear-btn">clear items</button>
+        </div>
     </section>
     
     <script src="script.js"></script>
