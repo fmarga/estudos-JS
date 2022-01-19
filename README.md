@@ -10,3 +10,4 @@ Lista de projetos contidos aqui:
 4. [Counter](https://github.com/fmarga/estudos-JS/tree/master/counter) - Página simples de contador manipulado pelo usuário e alterado via DOM
 5. [Jogo da velha](https://github.com/fmarga/estudos-JS/tree/master/jogo_da_velha) - Jogo da velha utilizando MDC para manipulação de arquivos JS
 6. [To-do List](https://github.com/fmarga/estudos-JS/tree/master/todolist) - To-do list que utiliza conceitos de CRUD
+7. [NavBar](https://github.com/fmarga/estudos-JS/tree/master/navbar) - Barra de navegação responsiva
