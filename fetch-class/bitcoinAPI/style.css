@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Andada Pro", serif;
+  background-color: rgb(228, 244, 250);
+}
+
+main {
+  text-align: center;
+  margin: 200px auto;
+  height: 100vh;
+}
