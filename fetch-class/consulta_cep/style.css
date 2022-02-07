@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Andada Pro", serif;
+  background-color: rgb(228, 244, 250);
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cep {
+  width: 400px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(8, 63, 83);
+  border-radius: 5px;
+}
+
+#btn {
+  width: 100px;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(8, 63, 83);
+  color: rgb(148, 183, 196);
+  cursor: pointer;
+  border: 1px solid rgb(8, 63, 83);
+  border-radius: 5px;
+}
+
+.resultado {
+  font-size: 1.2em;
+  color: rgb(8, 63, 83);
+  margin: 20px;
+}
