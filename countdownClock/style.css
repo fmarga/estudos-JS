@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #231f20;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.input {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #f3dfa2;
+}
+
+#event-name {
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.invalid {
+  border: 3px solid #bb4430;
+}
+
+.btn {
+  background-color: #bb4430;
+  color: #efe6dd;
+  padding: 4px 10px;
+  border-radius: 3px;
+  border: hidden;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #231f20;
+  background-color: #7ebdc2;
+  transition: 0.3s ease-in-out;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  text-transform: lowercase;
+}
+
+.time-zero {
+  font-size: 3rem;
+  color: #7ebdc2;
+}
+
+.clock-timer {
+  font-size: 4rem;
+  color: #bb4430;
+}
+
+.label {
+  color: #efe6dd;
+  font-size: 1.1rem;
+}
+
+/*
+    azul : #7EBDC2;
+    amarelo claro: #F3DFA2;
+*/
