@@ -11,3 +11,4 @@ Lista de projetos contidos aqui:
 5. [Jogo da velha](https://github.com/fmarga/estudos-JS/tree/master/jogo_da_velha) - Jogo da velha utilizando MDC para manipulação de arquivos JS
 6. [To-do List](https://github.com/fmarga/estudos-JS/tree/master/todolist) - To-do list que utiliza conceitos de CRUD
 7. [NavBar](https://github.com/fmarga/estudos-JS/tree/master/navbar) - Barra de navegação responsiva
+8. [Countdown Clock](https://github.com/fmarga/estudos-JS/tree/master/countdownClock) - Página de contagem regressiva
