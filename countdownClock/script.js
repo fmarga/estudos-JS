@@ -12,6 +12,8 @@ function initCountdown() {
   } else if (!date.checkValidity()) {
     date.classList.add("invalid");
   } else {
+    eventName.classList.remove("invalid");
+    date.classList.remove("invalid");
     const dateUser = new Date(date.value).getTime();
 
     function changeTime() {
